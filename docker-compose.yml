@@ -1,0 +1,5 @@
+memcached:
+  restart: always
+  build: ./memcached
+  ports:
+    - "11211:11211"
